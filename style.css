@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(85, 87, 99);
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    color: rgb(26, 231, 136);
+    font-family: 'Helvetica';
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header {
+    background-color: rgb(62, 63, 70);
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: top;
+    position: fixed;
+    width: 1900px;
+
+}
+
+#content {
+    padding-top: 100px;
+    text-align: center;
+}
+
+html {
+    margin-top: 0px;
+}
+
+.button {
+    background-color: rgb(26, 231, 136);
+    border: 2px rgb(32, 184, 113) solid;
+    color: rgb(122, 116, 116);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+}
