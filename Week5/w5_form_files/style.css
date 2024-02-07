@@ -1,0 +1,28 @@
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #fff;
+}
+
+tr {
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td {
+  display: flex;
+  width: 100%;
+  border-right: 1px solid rgb(0, 0, 0);
+}
+
+.header {
+  background-color: #7a7a7a;
+}
