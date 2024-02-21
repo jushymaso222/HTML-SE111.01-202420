@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pay Calculator</h1>
+    <script>
+
+        let hourly = prompt("How much money do you make an hour?")
+        let hours = prompt("How many hours did you work this week?")
+
+        let gross = hourly * hours
+        let taxes = gross * .20
+        let net = gross - taxes
+
+        alert(`You have a gross pay of $${gross.toFixed(2)}, the taxes being taken out is $${taxes.toFixed(2)}, and your net pay is $${net.toFixed(2)}`)
+        console.log(`Gross: $${gross.toFixed(2)}`)
+        console.log(`Taxes: $${taxes.toFixed(2)}`)
+        console.log(`Net: $${net.toFixed(2)}`)
+
+
+    </script>
+</body>
+</html>
