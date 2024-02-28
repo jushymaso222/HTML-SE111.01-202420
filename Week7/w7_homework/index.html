@@ -164,6 +164,10 @@
         */
        function formData(event)
        {
+<<<<<<< HEAD
+=======
+            div.innerHTML = ``
+>>>>>>> 33aa708801c3918535129c2d65516ca850cb5d2b
             //EXTRA CREDIT---------+5pts-------------------------------
             /*
                 Once your file is working, add ONE INSTRUCTION above this comment, but inside of the formData(), that makes sure if the user resubmits the form without reloading the page, only the new form info is displayed
@@ -171,16 +175,45 @@
            hoursWorked = hoursInput.value 
            rate = rateInput.value 
            fname = firstInput.value 
+<<<<<<< HEAD
            lname - lastInput.value 
 
            fullName = fname + " " + lname
            console.log(fullName)
        }//formData()
+=======
+           lname = lastInput.value 
+
+           fullName = fname + " " + lname
+           grossPay = hoursWorked * rate
+           taxes = grossPay * .20
+           netPay = grossPay - taxes
+
+           console.log(fullName, grossPay, taxes, netPay)
+
+           div.innerHTML = `<p><b>Full Name:</b> ${fullName}</p> <p><b>Gross Pay:</b> $${grossPay.toFixed(2)}</p> <p><b>Taxes Taken:</b> $${taxes.toFixed(2)}</p> <p><b>Net Pay:</b> $${netPay.toFixed(2)}</p>`
+
+        }//formData()
+>>>>>>> 33aa708801c3918535129c2d65516ca850cb5d2b
 
 
        function confirmData(event)
        {
+<<<<<<< HEAD
 
+=======
+        hoursWorked = hoursInput.value 
+        rate = rateInput.value 
+        fname = firstInput.value 
+        lname = lastInput.value 
+
+        fullName = fname + " " + lname
+        grossPay = hoursWorked * rate
+        taxes = grossPay * .20
+        netPay = grossPay - taxes
+
+        alert(`Full Name: ${fullName}\nGross Pay: $${grossPay.toFixed(2)}\nTaxes Taken: $${taxes.toFixed(2)}\nNet Pay: $${netPay.toFixed(2)}`)
+>>>>>>> 33aa708801c3918535129c2d65516ca850cb5d2b
        }//confirmData()
 
 
